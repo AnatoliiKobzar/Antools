@@ -53,35 +53,64 @@
     <!-- Hero -->
 
     <section class="hero">
-      <h1 class="hero__title">Awesome tools for Designer & Developer.</h1>
-      <p class="hero__description">
-        Antool is a web collection of information on paid or free Design and Development tools
-      </p>
-      <form class="search-form">
-        <label class="search-form__label">
-          <input class="search-form__input" type="text" />
-        </label>
-        <button class="btn" type="submit">Search</button>
-      </form>
+      <div class="hero__container">
+        <h1 class="hero__title">
+          Awesome tools for Designer & Developer<span class="hero__title--orange">.</span>
+        </h1>
+        <p class="hero__description">
+          Antool is a web collection of information on paid or free Design and Development tools
+        </p>
+        <form class="search-form">
+          <label class="search-form__label">
+            <input
+              class="search-form__input"
+              type="text"
+              name="search"
+              placeholder="find more than 430+ tools..."
+              required
+              autocomplete="off"
+            />
+            <svg class="search-form__icon" width="24" height="24">
+              <use href="./img/icons/sprite.svg#search"></use>
+            </svg>
+          </label>
+          <button class="btn search-form__btn" type="submit">Search</button>
+        </form>
+      </div>
       <ul class="socials">
         <li class="socials__item">
-          <a href="" class="socials__link">
-            <svg>
-              <use></use>
+          <a
+            href="https://www.facebook.com/"
+            class="socials__link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg class="socials__icon" width="36" height="36">
+              <use href="./img/icons/sprite.svg#facebook"></use>
             </svg>
           </a>
         </li>
         <li class="socials__item">
-          <a href="" class="socials__link">
-            <svg>
-              <use></use>
+          <a
+            href="https://www.instagram.com"
+            class="socials__link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg class="socials__icon" width="36" height="36">
+              <use href="./img/icons/sprite.svg#instagram"></use>
             </svg>
           </a>
         </li>
         <li class="socials__item">
-          <a href="" class="socials__link">
-            <svg>
-              <use></use>
+          <a
+            href="https://twitter.com"
+            class="socials__link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg class="socials__icon" width="36" height="36">
+              <use href="./img/icons/sprite.svg#twitter"></use>
             </svg>
           </a>
         </li>

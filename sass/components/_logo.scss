@@ -3,12 +3,17 @@
   gap: 12px;
   align-items: center;
   margin-right: 257px;
-  
+
   font-weight: 600;
   font-size: 22px;
-  line-height: calc(33 /22);
+  line-height: calc(33 / 22);
 
   color: var(--color90);
 
   text-decoration: none;
+
+  &__icon {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+      drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
 }

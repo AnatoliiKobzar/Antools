@@ -1,0 +1,35 @@
+.search-form {
+  position: relative;
+
+  &__input {
+    margin: 0;
+    padding: 24px 134px 24px 55px;
+    width: 500px;
+    background: #283036;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.38);
+    border: none;
+    border-radius: 15px;
+
+    &::placeholder {
+      font-size: 14px;
+      line-height: calc(21 / 14);
+      color: rgba(255, 255, 255, 0.38);
+    }
+  }
+
+  &__btn {
+    position: absolute;
+    top: 9px;
+    right: 109px;
+  }
+
+  &__icon {
+    position: absolute;
+    top: 20px;
+    left: 18px;
+
+    stroke: rgba(255, 255, 255, 0.38);;
+    fill: transparent;
+  }
+}

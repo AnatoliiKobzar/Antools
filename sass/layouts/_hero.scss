@@ -1,0 +1,33 @@
+.hero {
+  @extend %section;
+  @extend %container;
+
+  background: url(../img/background.png);
+  background-repeat: no-repeat;
+  background-position: 106% 35%;
+
+  &__container {
+    width: 600px;
+    margin-bottom: 110px;
+  }
+
+  &__title {
+    margin-bottom: 30px;
+
+    font-weight: 500;
+    font-size: 50px;
+    line-height: calc(70 / 50);
+    color: var(--color90);
+
+    &--orange {
+      color: var(--accent-color);
+    }
+  }
+
+  &__description {
+    margin-bottom: 60px;
+
+    font-size: 18px;
+    line-height: calc(30 / 18);
+  }
+}
