@@ -1,0 +1,15 @@
+.nav {
+  &__list {
+    @extend %list;
+
+    display: flex;
+    gap: 42px;
+  }
+
+  &__link {
+    font-weight: 500;
+    line-height: calc(24 / 16);
+    color: rgba(255, 255, 255, 0.55);
+    text-decoration: none;
+  }
+}

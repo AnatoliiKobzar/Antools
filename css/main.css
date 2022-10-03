@@ -1,1 +1,102 @@
-/*# sourceMappingURL=main.css.map */
+:root {
+  --main-font: "Poppins", sans-serif;
+  --color55: rgba(255, 255, 255, 0.55);
+  --color90: rgba(255, 255, 255, 0.9);
+  --color78: rgba(255, 255, 255, 0.78);
+  --accent-color: #FF6E30;
+}
+
+.nav__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  background-color: #1E252B;
+  color: var(--color55);
+  font-family: var(--main-font);
+  font-size: 16px;
+}
+
+.header {
+  margin: 0 auto;
+  width: 1224px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 12px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 257px;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1.5;
+  color: var(--color90);
+  text-decoration: none;
+}
+
+.btn {
+  padding: 12px 28px;
+  margin: 0;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fdf5ff;
+  background-color: var(--accent-color);
+  -webkit-box-shadow: 0 0 40px 40px var(--accent-color) inset, 0 0 0 0 var(--accent-color);
+          box-shadow: 0 0 40px 40px var(--accent-color) inset, 0 0 0 0 var(--accent-color);
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+  border: 2px solid var(--accent-color);
+  border-radius: 8px;
+  cursor: pointer;
+}
+.btn:hover, .btn:focus {
+  background-color: transparent;
+  -webkit-box-shadow: 0 0 10px 0 var(--accent-color) inset, 0 0 10px 4px var(--accent-color);
+          box-shadow: 0 0 10px 0 var(--accent-color) inset, 0 0 10px 4px var(--accent-color);
+}
+.btn--transparent {
+  background-color: transparent;
+  -webkit-box-shadow: 0 0 40px 40px transparent inset, 0 0 0 0 transparent;
+          box-shadow: 0 0 40px 40px transparent inset, 0 0 0 0 transparent;
+  border: none;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 26px;
+}
+
+.container-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  margin-left: auto;
+}
+
+.nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 42px;
+}
+.nav__link {
+  font-weight: 500;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.55);
+  text-decoration: none;
+}/*# sourceMappingURL=main.css.map */

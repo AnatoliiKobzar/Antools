@@ -1,0 +1,14 @@
+.header {
+@extend %container;
+
+display: flex;
+align-items: center;
+
+margin-top: 26px;
+}
+
+.container-btn{
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+}
