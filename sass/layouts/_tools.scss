@@ -1,0 +1,31 @@
+.tools {
+  @extend %container;
+  @extend %section;
+
+  &__title {
+    @extend %section-title;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+
+  &__description {
+    margin: 0 auto;
+    margin-bottom: 90px;
+    width: 427px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: calc(30 / 18);
+    text-align: center;
+    color: var(--color55);
+  }
+
+  &__list {
+    @extend %list;
+    display: flex;
+    column-gap: 15px;
+    row-gap: 120px;
+    flex-wrap: wrap;
+
+    margin-bottom: 100px;
+  }
+}

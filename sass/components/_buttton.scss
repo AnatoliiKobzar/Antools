@@ -16,6 +16,7 @@
   cursor: pointer;
 
   &--transparent {
+    color: var(--color55);
     background-color: transparent;
     box-shadow: 0 0 40px 40px transparent inset, 0 0 0 0 transparent;
     border: 2px solid transparent;
@@ -25,8 +26,18 @@
 
   &:hover,
   &:focus {
+    color: #fdf5ff;
     background-color: transparent;
     box-shadow: 0 0 10px 0 var(--accent-color) inset, 0 0 10px 4px var(--accent-color);
     border: 2px solid var(--accent-color);
+  }
+
+  &--on-right {
+    margin-left: auto;
+  }
+
+   &--on-center {
+    display: block;
+    margin: 0 auto;
   }
 }
