@@ -1,0 +1,47 @@
+.brands {
+  @extend %section;
+  @extend %container;
+
+  padding-top: 90px;
+
+  &__container {
+    position: relative;
+    padding: 65px 83px 46px;
+    background: rgba(44, 53, 61, 0.2);
+    backdrop-filter: blur(25px);
+    border-radius: 25px;
+    border: 2px solid #283036;
+    overflow: hidden;
+  }
+
+  &__title {
+    margin-bottom: 55px;
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: calc(36 / 24);
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+  }
+
+  &__list {
+    @extend %list;
+
+    margin: 0 auto;
+    display: flex;
+    gap: 107px;
+    align-items: baseline;
+    justify-content: center;
+  }
+
+  &__decor {
+    position: absolute;
+    left: -79px;
+    top: -79px;
+    width: 159px;
+    height: 159px;
+    background-color: rgba(255, 72, 66, 0.4);
+    filter: blur(50px);
+    border-radius: 50%;
+  }
+}

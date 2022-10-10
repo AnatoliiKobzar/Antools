@@ -276,128 +276,146 @@
           </div>
         </li>
       </ul>
-      <button class="btn btn--on-center" type="button">Load more</button>
+      <button class="btn btn--on-center btn--invers" type="button">Load more</button>
     </section>
 
     <!-- Brands -->
 
-    <section>
-      <h2>Trusted more than 150+ brand</h2>
-      <ul>
-        <li>
-          <svg>
-            <use></use>
-          </svg>
-        </li>
-        <li>
-          <svg>
-            <use></use>
-          </svg>
-        </li>
-        <li>
-          <svg>
-            <use></use>
-          </svg>
-        </li>
-        <li>
-          <svg>
-            <use></use>
-          </svg>
-        </li>
-      </ul>
+    <section class="brands">
+      <div class="brands__container">
+        <h2 class="brands__title">Trusted more than 150+ brand</h2>
+        <ul class="brands__list">
+          <li class="brands__item">
+            <svg class="brands__icon" width="193" height="42">
+              <use href="./img/icons/sprite.svg#microsoft"></use>
+            </svg>
+          </li>
+          <li class="brands__item">
+            <svg class="brands__icon" width="157" height="51">
+              <use href="./img/icons/sprite.svg#google"></use>
+            </svg>
+          </li>
+          <li class="brands__item">
+            <svg class="brands__icon" width="194" height="49">
+              <use href="./img/icons/sprite.svg#slack2"></use>
+            </svg>
+          </li>
+          <li class="brands__item">
+            <svg class="brands__icon" width="194" height="44">
+              <use href="./img/icons/sprite.svg#wordpress"></use>
+            </svg>
+          </li>
+        </ul>
+        <div class="brands__decor"></div>
+      </div>
     </section>
 
     <!-- Newcomer Tools -->
 
-    <section>
-      <div>
-        <h2>Newcomer Tools</h2>
-        <p>
+    <section class="newcomers">
+      <div class="newcomers__container">
+        <h2 class="newcomers__title">Newcomer Tools</h2>
+        <p class="newcomers__description">
           Wow! see the latest update of the most recommended tools from reliable designers and
           developers
         </p>
         <button class="btn" type="button">Explore more</button>
       </div>
-      <div>
-        <ul>
-          <li>
-            <div>
-              <svg>
-                <use></use>
-              </svg>
-              <h3>Zeplin</h3>
-              <p>Free & Paid</p>
+
+      <ul class="newcomers__list">
+        <li class="card card--mini">
+          <div class="card__wrapper">
+            <img src="./img/zeplin.png" alt="zeplin" width="64" height="64" />
+            <div class="card__wrapper-text">
+              <h3 class="card__title">Zeplin</h3>
+              <p class="card__subtitle">Free & Paid</p>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <div>
-              <svg>
-                <use></use>
+          </div>
+          <p class="card__text card__text--mini">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <div class="card__thumb">
+            <button type="button" class="card__btn">
+              <svg class="card__icon-like" width="28" height="28">
+                <use href="./img/icons/sprite.svg#like"></use>
               </svg>
-              <svg>
-                <use></use>
+            </button>
+            <button type="button" class="card__btn">
+              <svg class="card__icon-folder" width="30" height="30">
+                <use href="./img/icons/sprite.svg#folder"></use>
               </svg>
-              <button class="btn" type="button">Visit</button>
+            </button>
+            <button class="btn btn--transparent btn--on-right" type="button">Visit</button>
+          </div>
+        </li>
+        <li class="card card--mini">
+          <div class="card__wrapper">
+            <img src="./img/phpstorm.png" alt="phpstorm" width="64" height="64" />
+            <div class="card__wrapper-text">
+              <h3 class="card__title">PHPStorm</h3>
+              <p class="card__subtitle">Free</p>
             </div>
-          </li>
-          <li>
-            <div>
-              <svg>
-                <use></use>
+          </div>
+          <p class="card__text card__text--mini">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <div class="card__thumb">
+            <button type="button" class="card__btn">
+              <svg class="card__icon-like" width="28" height="28">
+                <use href="./img/icons/sprite.svg#like"></use>
               </svg>
-              <h3>PHPStorm</h3>
-              <p>Free</p>
+            </button>
+            <button type="button" class="card__btn">
+              <svg class="card__icon-folder" width="30" height="30">
+                <use href="./img/icons/sprite.svg#folder"></use>
+              </svg>
+            </button>
+            <button class="btn btn--transparent btn--on-right" type="button">Visit</button>
+          </div>
+        </li>
+        <li class="card card--mini">
+          <div class="card__wrapper">
+            <img src="./img/toolbox.png" alt="toolbox" width="64" height="64" />
+            <div class="card__wrapper-text">
+              <h3 class="card__title">Toolbox</h3>
+              <p class="card__subtitle">Free</p>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <div>
-              <svg>
-                <use></use>
+          </div>
+          <p class="card__text card__text--mini">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <div class="card__thumb">
+            <button type="button" class="card__btn">
+              <svg class="card__icon-like" width="28" height="28">
+                <use href="./img/icons/sprite.svg#like"></use>
               </svg>
-              <svg>
-                <use></use>
+            </button>
+            <button type="button" class="card__btn">
+              <svg class="card__icon-folder" width="30" height="30">
+                <use href="./img/icons/sprite.svg#folder"></use>
               </svg>
-              <button class="btn" type="button">Visit</button>
+            </button>
+            <button class="btn btn--transparent btn--on-right" type="button">Visit</button>
+          </div>
+        </li>
+        <li class="card card--mini">
+          <div class="card__wrapper">
+            <img src="./img/procreate.png" alt="procreate" width="64" height="64" />
+            <div class="card__wrapper-text">
+              <h3 class="card__title">Procreate</h3>
+              <p class="card__subtitle">Paid</p>
             </div>
-          </li>
-          <li>
-            <div>
-              <svg>
-                <use></use>
+          </div>
+          <p class="card__text card__text--mini">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <div class="card__thumb">
+            <button type="button" class="card__btn">
+              <svg class="card__icon-like" width="28" height="28">
+                <use href="./img/icons/sprite.svg#like"></use>
               </svg>
-              <h3>Toolbox</h3>
-              <p>Free</p>
-            </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <div>
-              <svg>
-                <use></use>
+            </button>
+            <button type="button" class="card__btn">
+              <svg class="card__icon-folder" width="30" height="30">
+                <use href="./img/icons/sprite.svg#folder"></use>
               </svg>
-              <svg>
-                <use></use>
-              </svg>
-              <button class="btn" type="button">Visit</button>
-            </div>
-          </li>
-          <li>
-            <div>
-              <svg>
-                <use></use>
-              </svg>
-              <h3>Procreate</h3>
-              <p>Paid</p>
-            </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <div>
-              <svg>
-                <use></use>
-              </svg>
-              <svg>
-                <use></use>
-              </svg>
-              <button class="btn" type="button">Visit</button>
-            </div>
-          </li>
-        </ul>
-      </div>
+            </button>
+            <button class="btn btn--transparent btn--on-right" type="button">Visit</button>
+          </div>
+        </li>
+      </ul>
     </section>
 
     <!-- Join -->

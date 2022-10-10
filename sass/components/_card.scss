@@ -1,10 +1,14 @@
 .card {
-  width: calc((100% - 30px) / 3);
+  width: calc((100% - 48px) / 3);
   padding: 32px;
 
   border-radius: 15px;
 
   transition: transform var(--animation);
+
+  &--mini {
+    width: calc((100% - 24px) / 2);
+  }
 
   &:hover,
   &:focus {
@@ -23,6 +27,7 @@
     line-height: calc(36 / 24);
 
     color: var(--color78);
+
   }
 
   &__subtitle {
@@ -39,6 +44,12 @@
     line-height: calc(30 / 16);
 
     color: var(--color55);
+
+    
+    &--mini {
+      font-size: 14px;
+      line-height: calc(30 / 14);
+    }
   }
 
   &__icon-like {
