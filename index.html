@@ -331,7 +331,9 @@
               <p class="card__subtitle">Free & Paid</p>
             </div>
           </div>
-          <p class="card__text card__text--mini">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p class="card__text card__text--mini">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
           <div class="card__thumb">
             <button type="button" class="card__btn">
               <svg class="card__icon-like" width="28" height="28">
@@ -354,7 +356,9 @@
               <p class="card__subtitle">Free</p>
             </div>
           </div>
-          <p class="card__text card__text--mini">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p class="card__text card__text--mini">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
           <div class="card__thumb">
             <button type="button" class="card__btn">
               <svg class="card__icon-like" width="28" height="28">
@@ -377,7 +381,9 @@
               <p class="card__subtitle">Free</p>
             </div>
           </div>
-          <p class="card__text card__text--mini">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p class="card__text card__text--mini">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
           <div class="card__thumb">
             <button type="button" class="card__btn">
               <svg class="card__icon-like" width="28" height="28">
@@ -400,7 +406,9 @@
               <p class="card__subtitle">Paid</p>
             </div>
           </div>
-          <p class="card__text card__text--mini">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p class="card__text card__text--mini">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
           <div class="card__thumb">
             <button type="button" class="card__btn">
               <svg class="card__icon-like" width="28" height="28">
@@ -420,70 +428,89 @@
 
     <!-- Join -->
 
-    <section>
-      <h2>Become a contributor?</h2>
-      <p>Join us and get tips & tricks to become a great Designer and Developer</p>
+    <section class="join">
+      <h2 class="join__title">Become a contributor?</h2>
+      <p class="join__description">
+        Join us and get tips & tricks to become a great Designer and Developer
+      </p>
       <form class="join-form">
         <label class="join-form__label">
-          <input class="join-form__input" type="text" />
+          <input
+            class="join-form__input"
+            type="email"
+            name="mail"
+            placeholder="Enter your email..."
+            required
+            autocomplete="off"
+          />
         </label>
-        <button class="btn" type="submit">Join Us</button>
+        <button class="btn join-form__btn" type="submit">Join Us</button>
       </form>
     </section>
 
-    <footer>
-      <div>
-        <a href="./index.html" class="logo">antools.</a>
-        <p>Copyright 2021. Antools</p>
-        <p>
-          Antool is a web collection of information on paid or free Design and Development tools
-        </p>
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__wrapper">
+          <a href="./index.html" class="logo footer__logo">
+            <svg class="logo__icon" width="38" height="38">
+              <use href="./img/icons/sprite.svg#logo"></use>
+            </svg>
+            <span>antools.</span>
+          </a>
+          <p class="footer__copyright">Copyright 2021. Antools</p>
+          <p class="footer__discription">
+            Antool is a web collection of information on paid or free Design and Development tools
+          </p>
+        </div>
+        <address>
+          <h3 class="footer__title">Contact Us</h3>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a class="footer__link" href="tel:+621987463" class="address__link">+621987463</a>
+            </li>
+            <li class="footer__item">
+              <a
+                class="footer__link"
+                href="https://goo.gl/maps/vF8xDAVCTpMwfiLv7"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="address__link address__link--white"
+                >M Building, No.10 A
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="mailto:antools@awesome.com" class="address__link"
+                >antools@awesome.com</a
+              >
+            </li>
+          </ul>
+        </address>
+        <div>
+          <h3 class="footer__title">Categories</h3>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a class="footer__link" href="#">Design</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Development</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="footer__title">Company Info</h3>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a class="footer__link" href="#">About Us</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Our Partners</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Blog</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <address>
-        <h3>Contact Us</h3>
-        <ul>
-          <li>
-            <a href="tel:+621987463" class="address__link">+621987463</a>
-          </li>
-          <li>
-            <a
-              href="https://goo.gl/maps/vF8xDAVCTpMwfiLv7"
-              target="_blank"
-              rel="noreferrer noopener"
-              class="address__link address__link--white"
-              >M Building, No.10 A
-            </a>
-          </li>
-          <li>
-            <a href="mailto:antools@awesome.com" class="address__link">antools@awesome.com</a>
-          </li>
-        </ul>
-        <div>
-          <h3>Categories</h3>
-          <ul>
-            <li>
-              <a href="#">Design</a>
-            </li>
-            <li>
-              <a href="#">Development</a>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <h3>Company Info</h3>
-          <ul>
-            <li>
-              <a href="#">About Us</a>
-            </li>
-            <li>
-              <a href="#">Our Partners</a>
-            </li>
-            <li>
-              <a href="#">Blog</a>
-            </li>
-          </ul>
-        </div>
-      </address>
     </footer>
   </body>
 </html>

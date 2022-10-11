@@ -1,0 +1,48 @@
+.join {
+  @extend %section;
+  @extend %container;
+  text-align: center;
+  padding-bottom: 240px;
+
+  &__title {
+    @extend %section-title;
+    margin-bottom: 25px;
+  }
+
+  &__description {
+    width: 444px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: calc(30 / 18);
+    color: var(--color55);
+    margin: 0 auto;
+    margin-bottom: 100px;
+  }
+}
+
+.join-form {
+  position: relative;
+
+  &__input {
+    margin: 0;
+    padding: 24px 134px 24px 24px;
+    width: 549px;
+    background: #283036;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.38);
+    border: none;
+    border-radius: 15px;
+
+    &::placeholder {
+      font-size: 14px;
+      line-height: calc(21 / 14);
+      color: rgba(255, 255, 255, 0.38);
+    }
+  }
+
+  &__btn {
+    position: absolute;
+    top: 9px;
+    right: 346px;
+  }
+}
